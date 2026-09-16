@@ -1,0 +1,19 @@
+1. Validate request
+2. Validate account IDs
+3. Validate amount
+4. Check sender ≠ receiver
+5. Check accounts exist
+6. Check idempotency key
+7. Check account status
+8. Acquire Redis locks
+9. Start MongoDB session
+10. Read sender balance
+11. Check sufficient balance
+12. Create PENDING transaction
+13. Create DEBIT
+14. Create CREDIT
+15. Mark COMPLETED
+16. Commit transaction
+17. Release Redis lock
+18. Send email
+
